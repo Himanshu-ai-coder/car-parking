@@ -1,0 +1,287 @@
+.search{
+    height: 10rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.H {
+    font-family: "Oswald", sans-serif;
+    font-size: 4rem;
+}
+.name{
+    height: 10rem;
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-top: none;
+    border-left: none;
+}
+.you{
+    height: 10rem;
+    width: 50%;
+    /* border: 2px solid black; */
+        display: flex;
+    /* justify-content: center; */
+}
+.text{
+ font-family: "SN Pro", sans-serif;
+    font-size: 3rem;
+    margin-left: 4rem;
+}
+.div2{
+    height: 20rem;
+    width: 100%;
+    border: 2px solid black;
+    display: grid;
+    gap: 5rem;
+    justify-content: center;
+}
+.car{
+    height: 10rem;
+    width: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 4rem; */
+    border-radius: 2rem;
+}
+.car1{
+    height: 100%;
+    width: 100%;
+     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.9s ease;
+
+}
+#icon{
+    height: 100%;
+    width: 100%;
+    font-size: 5rem;
+    margin-top: 2rem;
+    transition: 0.9s ease;
+
+
+}
+#icon:hover{
+    color: white;
+    transition: 0.9s ease;
+    font-size: 4rem;
+
+}
+.car1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.9s ease;
+}
+.type{
+    height: 4rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.btn{
+   height: 15rem;
+    width: 90vw;
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: -5rem;
+}
+.moving{
+    height: 12rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 4rem; */
+    /* border-radius: 2rem; */
+}
+.url{
+    color: black;
+}
+
+@keyframes moveCar {
+    from {
+        left: -200px;
+    }
+    to {
+        left: 100%;
+    }
+}
+ #carr{
+    font-size: 7rem;
+    color: black;
+    /* gap: 5rem; */
+
+} 
+div{
+   display: flex;
+gap: 5rem;
+   width: 100%;
+} 
+
+
+#carr {
+    position: relative;
+    /* bottom: 120px; */
+    /* left: -200px; */
+    /* width: 150px; */
+    margin-top: 5.5rem;
+    animation: moveCar 6s linear infinite;
+}
+
+
+@media only screen and (max-width : 320px) {
+
+
+
+.search{
+    height: 10rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.H {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+}
+.name{
+    height: 5rem;
+    width: 40%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-top: none;
+    border-left: none;
+
+}
+.you{
+    height: 5rem;
+    width: 50%;
+    /* border: 2px solid black; */
+        display: flex;
+    /* justify-content: center; */
+}
+.text{
+ font-family: "SN Pro", sans-serif;
+    font-size: 1rem;
+    margin-left: -15px;
+}
+.div2{
+    height: 50rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: grid;
+    gap: 5rem;
+    justify-content: center;
+margin-top: -5rem;
+
+}
+.car{
+    height: 5rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: grid;
+    justify-content: center;
+    /* margin-top: -2rem; */
+    border-radius: 2rem;
+    gap: 1rem;
+}
+.car1{
+    height: 100%;
+    width: 100%;
+     /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: -6rem; */
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.9s ease;
+
+}
+#icon{
+    height: 5REM;
+    width: 10rem;
+    font-size: 5rem;
+    margin-top: 2rem;
+    transition: 0.9s ease;
+
+
+}
+#icon:hover{
+    color: white;
+    transition: 0.9s ease;
+    font-size: 4rem;
+
+}
+.car1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.9s ease;
+}
+.type{
+    height: 4rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.btn{
+   height: 15rem;
+    width: 90vw;
+    /* border: 2px solid black; */
+    display: grid;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: -24rem;
+}
+.moving{
+    height: 12rem;
+    width: 320px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 4rem; */
+    /* border-radius: 2rem; */
+}
+.url{
+    color: black;
+}
+
+@keyframes moveCar {
+    from {
+        left: -1000px;
+    }
+    to {
+        left: 100%;
+    }
+}
+ #carr{
+    font-size: 7rem;
+    color: black;
+    /* gap: 5rem; */
+
+} 
+div{
+   display: flex;
+gap: 1rem;
+   width: 100%;
+} 
+
+
+#carr {
+    position: relative;
+    /* bottom: 120px; */
+    /* left: -200px; */
+    /* width: 150px; */
+    margin-top: 5.5rem;
+    animation: moveCar 9s linear infinite;
+}
+
+
+}

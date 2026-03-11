@@ -1,0 +1,892 @@
+.head {
+    background-color: white;
+    padding: 10px;
+    /* border: 2px solid black; */
+    height: 5rem;
+    width: 40%;
+}
+
+.at {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    /* border: 2px solid black; */
+    border-radius: 5rem;
+    height: 3rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+
+}
+
+/* .at:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s ease;
+} */
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 6rem;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 45%;
+    margin-top: -6.5rem;
+    gap: 10rem;
+}
+
+.H {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+}
+
+.book {
+    /* border: 2px solid black; */
+    height: 12rem;
+    padding-left: 1rem;
+    background-color: rgb(160, 162, 162);
+
+}
+
+.p {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+
+}
+
+.start {
+    margin-top: 1rem;
+    height: 5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin-left: 5rem;
+    /* margin-top: -10rem; */
+    cursor: pointer;
+
+}
+
+
+
+.end {
+    margin-top: 1rem;
+    height: 5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin-left: 5rem;
+    /* margin-top: -10rem; */
+    cursor: pointer;
+
+}
+
+.booknow {
+    margin-top: 1rem;
+    height: 4rem;
+    width: 15rem;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding-left: 0.5rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin-left: 5rem;
+    /* margin-top: rem; */
+    cursor: pointer;
+
+
+}
+
+.booknow:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.head2 {
+    height: 5rem;
+    width: 40%;
+}
+
+.label {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+}
+
+.select {
+    height: 5rem;
+    width: 10rem;
+    font-size: 2.5rem;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    padding-left: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlI0lYNciFDb0luij73eo_ZlZAGRDkQAFNGw&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.value {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+
+
+
+.india {
+    height: 5rem;
+    width: 10rem;
+    font-size: 2.5rem;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    padding-left: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 3rem;
+    background-image: url('https://t3.ftcdn.net/jpg/07/95/84/22/360_F_795842253_ocHXI9FeyKtoubP1HEppCRYnhJWSrfkc.jpg');
+    background-size: cover;
+    margin-left: 2rem;
+}
+
+.ind {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.icon {
+    /* border: 2px solid black; */
+    height: 24rem;
+    width: 100%;
+    /* gap: 2rem; */
+    display: flex;
+}
+
+.delhi,
+.mumbai,
+.chennai,
+.kolkata {
+    margin-top: 2rem;
+    border-right: 2px solid black;
+    /* border: 2px solid black; */
+    height: 20rem;
+    width: 25%;
+
+}
+
+.chennai {
+    border-right: none;
+}
+
+.delhi {
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-vector/india-gate-illustration-sketch-look_597133-2296.jpg');
+}
+
+.mumbai {
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-vector/gateway-india-mumbai-mumbai-city-gateway-icon-india-famous-indian-hand-drawn-maharashtra-land_743272-4.jpg');
+}
+
+.kolkata {
+    background-size: cover;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIKbevQ_aHk1WNe77PZ_4UbAJSYHIg2rpPUQ&s');
+}
+
+.chennai {
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/6b/93/b1/6b93b19946e0c00379d8ea78b538f105.jpg');
+}
+
+.bottom {
+    /* border: 2px solid black; */
+    height: 22rem;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    gap: 50px;
+}
+
+
+.slider {
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: 1rem;
+}
+
+.slides {
+    display: flex;
+    width: 150%;
+    animation: slide 9s infinite;
+}
+
+.slides img {
+    width: 300px;
+    height: 350px;
+}
+
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -300px;
+    }
+
+    40% {
+        margin-left: -600px;
+    }
+
+    60% {
+        margin-left: -900px;
+    }
+}
+
+
+
+
+.div {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+}
+
+
+
+.slides2 {
+    display: flex;
+    width: 150%;
+    animation: slide2 9s infinite;
+}
+
+.slides2 img {
+    width: 300px;
+    height: 350px;
+}
+
+
+@keyframes slide2 {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -300px;
+    }
+
+    40% {
+        margin-left: -600px;
+    }
+
+    60% {
+        margin-left: -900px;
+    }
+}
+
+.slider2 {
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: 1rem;
+
+}
+
+
+
+
+
+.slides3 {
+    display: flex;
+    width: 150%;
+    animation: slide2 9s infinite;
+}
+
+.slides3 img {
+    width: 300px;
+    height: 350px;
+}
+
+
+@keyframes slide2 {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -300px;
+    }
+
+    40% {
+        margin-left: -600px;
+    }
+
+    60% {
+        margin-left: -900px;
+    }
+}
+
+.slider3 {
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: 1rem;
+
+}
+
+
+.slider4 {
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: 1rem;
+
+}
+
+.slides4 {
+    display: flex;
+    width: 150%;
+    animation: slide 9s infinite;
+}
+
+.slides4 img {
+    width: 300px;
+    height: 350px;
+}
+
+
+@keyframes slide4 {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -300px;
+    }
+
+    40% {
+        margin-left: -600px;
+    }
+
+    60% {
+        margin-left: -900px;
+    }
+}
+
+
+
+
+
+.rating-box{
+    font-family: Arial, sans-serif;
+    /* border: 1px solid #ddd; */
+    padding: 10px 20px;
+    width: 280px;
+    height: 350px;
+    border-radius: 8px;
+}
+.stars{
+    color: #fbbc04;
+    font-size: 20px;
+}
+.google{
+     
+    color: #4285F4;
+    font-weight: bold;
+}
+
+/* -----------------------------------------------------------------------------------------------------------> */
+
+@media only screen and (max-width : 320px) {
+
+ 
+
+.head {
+    background-color: white;
+    padding: 10px;
+    /* border: 2px solid black; */
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.at {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    /* border: 2px solid black; */
+    border-radius: 5rem;
+    height: 3rem;
+    width: 15rem;
+    font-size: 15px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+
+}
+
+/* .at:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s ease;
+} */
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 6rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-left: 0%;
+    margin-top: -25px;
+    gap: 2rem;
+}
+
+.H {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+.book {
+    /* border: 2px solid black; */
+    height: 24rem;
+    padding-left: 1rem;
+    background-color: rgb(160, 162, 162);
+
+}
+
+/* .p {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+
+} */
+
+.start {
+    margin-top: 1rem;
+    height: 5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin-left: 1rem;
+    /* margin-top: -10rem; */
+    cursor: pointer;
+
+}
+
+
+
+.end {
+    margin-top: 1rem;
+    height: 5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin-left: 1rem;
+    /* margin-top: -10rem; */
+    cursor: pointer;
+
+}
+
+.booknow {
+    margin-top: 1rem;
+    height: 4rem;
+    width: 15rem;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding-left: 0.5rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin-left: 1.2rem;
+    /* margin-top: rem; */
+    cursor: pointer;
+
+
+}
+
+.booknow:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.head2 {
+    height: 5rem;
+    width: 40%;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+}
+
+.select {
+    height: 3rem;
+    width: 5rem;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    padding-left: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlI0lYNciFDb0luij73eo_ZlZAGRDkQAFNGw&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.value {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+
+
+
+.india {
+    height: 3rem;
+    width: 5rem;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    padding-left: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-image: url('https://t3.ftcdn.net/jpg/07/95/84/22/360_F_795842253_ocHXI9FeyKtoubP1HEppCRYnhJWSrfkc.jpg');
+    background-size: cover;
+    margin-left: 0.5rem;
+}
+
+.ind {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.icon {
+    /* border: 2px solid black; */
+    height: 24rem;
+    width: 100%;
+    /* gap: 2rem; */
+    display:grid;
+}
+
+.delhi,
+.mumbai,
+.chennai,
+.kolkata {
+    margin-top: 2rem;
+    border-right: 2px solid black;
+    /* border: 2px solid black; */
+    height: 20rem;
+    width: 100%;
+
+}
+
+.chennai {
+    border-right: none;
+}
+
+.delhi {
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-vector/india-gate-illustration-sketch-look_597133-2296.jpg');
+}
+
+.mumbai {
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-vector/gateway-india-mumbai-mumbai-city-gateway-icon-india-famous-indian-hand-drawn-maharashtra-land_743272-4.jpg');
+}
+
+.kolkata {
+    background-size: cover;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIKbevQ_aHk1WNe77PZ_4UbAJSYHIg2rpPUQ&s');
+}
+
+.chennai {
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/236x/6b/93/b1/6b93b19946e0c00379d8ea78b538f105.jpg');
+}
+
+.bottom {
+    /* border: 2px solid black; */
+    height: 22rem;
+    width: 100%;
+    margin-top: 63.5rem;
+}
+
+.main {
+    display: grid;
+    gap: 1px;
+}
+
+
+.slider {
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: 1rem;
+}
+
+.slides {
+    display: flex;
+    width: 150%;
+    animation: slide 9s infinite;
+}
+
+.slides img {
+    width: 300px;
+    height: 350px;
+}
+
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -300px;
+    }
+
+    40% {
+        margin-left: -600px;
+    }
+
+    60% {
+        margin-left: -900px;
+    }
+}
+
+
+
+
+.div {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+}
+
+
+
+.slides2 {
+    display: flex;
+    width: 150%;
+    animation: slide2 9s infinite;
+}
+
+.slides2 img {
+    width: 300px;
+    height: 350px;
+}
+
+
+@keyframes slide2 {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -300px;
+    }
+
+    40% {
+        margin-left: -600px;
+    }
+
+    60% {
+        margin-left: -900px;
+    }
+}
+
+.slider2 {
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: 1rem;
+
+}
+
+
+
+
+
+.slides3 {
+    display: flex;
+    width: 150%;
+    animation: slide2 9s infinite;
+}
+
+.slides3 img {
+    width: 300px;
+    height: 350px;
+}
+
+
+@keyframes slide2 {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -300px;
+    }
+
+    40% {
+        margin-left: -600px;
+    }
+
+    60% {
+        margin-left: -900px;
+    }
+}
+
+.slider3 {
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: 1rem;
+
+}
+
+
+.slider4 {
+    width: 300px;
+    height: 330px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: 1rem;
+
+}
+
+.slides4 {
+    display: flex;
+    width: 150%;
+    animation: slide 9s infinite;
+}
+
+.slides4 img {
+    width: 300px;
+    height: 350px;
+}
+
+
+@keyframes slide4 {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -300px;
+    }
+
+    40% {
+        margin-left: -600px;
+    }
+
+    60% {
+        margin-left: -900px;
+    }
+}
+
+
+
+
+
+.rating-box{
+    font-family: Arial, sans-serif;
+    /* border: 1px solid #ddd; */
+    padding: 10px 20px;
+    width: 280px;
+    height: 350px;
+    border-radius: 8px;
+}
+.stars{
+    color: #fbbc04;
+    font-size: 20px;
+}
+.google{
+     
+    color: #4285F4;
+    font-weight: bold;
+}
+
+
+
+
+}
